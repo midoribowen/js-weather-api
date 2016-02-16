@@ -1,3 +1,4 @@
+var gulp = require('gulp');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var concat = require('gulp-concat');
@@ -10,7 +11,7 @@ var lib = require('bower-files')({
     "bootstrap": {
       "main": [
         "less/bootstrap.less",
-        "dist/css/bootstrap",
+        "dist/css/bootstrap.css",
         "dist/css/bootstrap.js"
       ]
     }
