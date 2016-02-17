@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/midoribowen/js-weather-api",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,5 +16,12 @@
     "jquery": "^2.2.0",
     "bootstrap": "^3.3.6",
     "moment": "^2.11.2"
+  },
+  "authors": [
+    "Midori Bowen <midori.p.bowen@gmail.com>"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6"
   }
 }
